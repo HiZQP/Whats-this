@@ -9,7 +9,6 @@ private:
 	static int main_windowHeight;
 	static const char* main_windowTitle;
 public:
-	
 	Game();
 	~Game();
 	// 初始化游戏窗口(窗口名称输入，宽度输入，高度输入)

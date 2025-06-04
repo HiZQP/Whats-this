@@ -19,12 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Engine\EventsManager.cpp" />
+    <ClCompile Include="Source\Engine\physics\PhysicsManager.cpp" />
+    <ClCompile Include="Source\Engine\input\InputManager.cpp" />
+    <ClCompile Include="Source\Game\actors\Actor.cpp" />
     <ClCompile Include="Source\Engine\assets\AssetsManager.cpp" />
     <ClCompile Include="Source\Game\levels\LevelManager.cpp" />
     <ClCompile Include="Source\Game\main\Game.cpp" />
     <ClCompile Include="Source\Game\main\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Engine\EventsManager.h" />
+    <ClInclude Include="Source\Engine\physics\PhysicsManager.h" />
+    <ClInclude Include="Source\Engine\input\InputManager.h" />
+    <ClInclude Include="Source\Game\actors\Actor.h" />
     <ClInclude Include="Source\Engine\assets\AssetsManager.h" />
     <ClInclude Include="Source\Game\levels\LevelManager.h" />
     <ClInclude Include="Source\Game\main\Game.h" />
